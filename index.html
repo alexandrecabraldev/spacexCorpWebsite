@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space X Galaxy Travel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                <i class="bi bi-rocket"></i>
+                Space X
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door-fill"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#turismo" class="nav-link">
+                            Turismo
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#planetas" class="nav-link">
+                            Planetas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section >
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active"data-bs-interval="3000">
+                        <img src="img/carousel/spacexBanner.jpg" class="d-block w-100 heightBanner" alt="banner da spacex">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/carousel/moonVisionBanner.jpg" class="w-100 heightBanner" alt="visão da terra vista da lua">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/carousel/startRocketBanner.jpg" class="w-100 heightBanner" alt="um foguete decolando em posição vertical">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/carousel/astronautsBanner.webp" class="w-100 heightBanner" alt="visão dos astronautas dentro do foguete mexendo nas configurações do foguete na tela de computador">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/carousel/marsBanner.jpeg" class="w-100 heightBanner" alt="visão do planeta marte de perto">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" >
+                <div class="container" id="sobre">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="img/logo/spacexLogo.jpg" class="d-block w-100 rounded" alt="foto da logo da space x">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre<span class="text-colored"> a empresa</span></h2>
+                            <p>A empresa de elon musk Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi qui doloribus libero culpa quas, ea sint minus quae commodi voluptatibus harum, similique reprehenderit magni cumque ad quidem ipsum?</p>
+                            <h3 class="section-title">Sobre<span class="text-colored"> a tripulação</span></h3>
+                            <p>2 caras e 2 minas Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ab ipsam et. Tempore, quas sit odit id accusantium blanditiis deleniti iure architecto rem a, aut totam dolorem. Assumenda, quisquam labore!</p>
+                            <ul>
+                                <img class="d-block w-100 pr-4 rounded" src="img/logo/tripulationSpacex.webp" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 pb-5" >
+            <div  class="container" id="turismo">
+                <div class="row">
+                    <h2 class="section-title text-center">Opções de <span class="text-colored">Turismo</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="img/places/planets/turism/saturn.webp " alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i>Saturno</i>
+                        </h3>
+                        <p>Não tem nada lá, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae possimus repellendus voluptates iure, nesciunt excepturi assumenda et. Accusantium impedit fugit quia deserunt optio. Distinctio itaque veniam quae vero, consectetur maxime.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/places/planets/turism/mars.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i>Marte</i>
+                        </h3>
+                        <p>Mais quente que o nordeste brasileiro, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae possimus repellendus voluptates iure, nesciunt excepturi assumenda et. Accusantium impedit fugit quia deserunt optio. Distinctio itaque veniam quae vero, consectetur maxime.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/places/planets/turism/moon.webp" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i>Moon</i>
+                        </h3>
+                        <p>Passagem só de ida, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae possimus repellendus voluptates iure, nesciunt excepturi assumenda et. Accusantium impedit fugit quia deserunt optio. Distinctio itaque veniam quae vero, consectetur maxime.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 pb-5" >
+            <div  class="container" id="planetas">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">planetas</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-systems">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#solarSystem" class="fw-bold fs-4 text-start nav-link text-colored active">Solar System</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#outOfSolarSystem" class="fw-bold fs-4 text-start nav-link text-colored">Out of Solar System</button>
+
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="solarSystem">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/planets/turism/moon.webp" alt="imagem da lua">
+                                        <h5 class="text-colored fw-bold mt-2">Moon</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit, vc já conhece, só olhar pra cima de noite. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/planets/turism/mars.webp" alt="imagem de marte">
+                                        <h5 class="text-colored fw-bold mt-2">Mars</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit, é muito quente lá. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/planets/turism/saturn.webp" alt="imagem de saturno">
+                                        <h5 class="text-colored fw-bold mt-2">Saturn</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit, tem anel. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/planets/turism/uranus.webp" alt="Imagem de urano">
+                                        <h5 class="text-colored fw-bold mt-2">Urano</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit, tb tem anel. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="outOfSolarSystem">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/planets/outOfSolarSystem/planetOutOfSolarSystem1.webp" alt="foto de um planeta desconhecido">
+                                        <h5 class="text-colored fw-bold mt-2">Planeta desconhecido 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/planets/outOfSolarSystem/planetOutOfSolarSystem2.jpg" alt="foto de um planeta desconhecido">
+                                        <h5 class="text-colored fw-bold mt-2">Planeta desconhecido 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/planets/outOfSolarSystem/planetOutOfSolarSystem3.webp" alt="foto de um planeta desconhecido">
+                                        <h5 class="text-colored fw-bold mt-2">Planeta desconhecido 3</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Name <i class="bi bi-person"></i></label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Email <i class="bi bi-envelope"></i></label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Phone Number <i class="bi bi-telephone"></i></label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Message <i class="bi bi-chat-left-dots"></i></label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">
+                                <i class="bi bi-cursor-fill"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored mt-4">
+                                <i class="bi bi-globe2"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-buildings"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Supremo Musk, sem número. Bairro Novo Mundo - Planeta Mermelho.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

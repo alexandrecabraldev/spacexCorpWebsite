@@ -1,0 +1,64 @@
+body {
+    font-family: 'Amatic SC', cursive;
+}
+
+.heightBanner{
+    height: 468px;
+    object-fit:cover;
+}
+.navbar {
+    background-color: #07172E;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: #07172E;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-systems .nav-link.active:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: 'Permanent Marker', cursive;
+}
+
+#fale-conosco {
+    background-color: #cae0ff;
+}
+
+.text-colored {
+    color: #295ba0;
+}
+
+.nav-systems .nav-link.active, 
+#fale-conosco button {
+    background-color: #07172E;
+    color: white;
+}
+
+.nav-systems .nav-link:hover {
+    color: #1b4581;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 120px;
+    }
+}
